@@ -5,10 +5,11 @@ Protected by MIT Licence.
 Copyright (C) Steven Williams 2017
 
 
-# Relay Control
+## Relay Control
 This is a simple relay control system for a Raspberry Pi. 
 Currently configured for 8 relays (8 GPIO pins). One pin per relay. 
-Default Pin Configuration:
+
+### Default Pin Configuration:
 - Relay 1: BCM Pin 17 (Board Pin 11)
 - Relay 2: BCM Pin 27 (Board Pin 13)
 - Relay 3: BCM Pin 22 (Board Pin 15)
@@ -18,10 +19,11 @@ Default Pin Configuration:
 - Relay 7: BCM Pin 5 (Board Pin 29)
 - Relay 8: BCM Pin 6 (Board Pin 31)
 
+---
+### Timers File Formatting
 `timers.csv` can be updated without turning off the program.
 Delay times of 2 or more relays running simultaneously must be the same. 
 TODO: Update program to handle various time delays.
-
 
 
 Layout: `Relay number,24hr time,delay (seconds)`
