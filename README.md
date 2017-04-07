@@ -9,6 +9,8 @@ Copyright (C) Steven Williams 2017
 This is a simple relay control system for a Raspberry Pi. 
 Currently configured for 8 relays (8 GPIO pins). One pin per relay. 
 
+Refer to [pinout.xyz](https://pinout.xyz) for which pins to connect to. 
+
 ### Default Pin Configuration:
 - Relay 1: BCM Pin 17 (Board Pin 11)
 - Relay 2: BCM Pin 27 (Board Pin 13)
