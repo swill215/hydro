@@ -1,14 +1,12 @@
 """
-Hydro: Relay Control Program
-Version 1 - Temp system
+Hydro: Relay Control Program - Version 1
 Timer control based on RasPi Clock.
 
 Times are preset in "timers.csv" file. 
 Follow Github link for how to set times in the CSV. 
 
-@author = swill215
-github.com/swill215
-
+Protected by MIT Licence. Copyright (C) Steven Williams 2017
+https://github.com/swill215/hydro
 """
 
 import RPi.GPIO as GPIO
